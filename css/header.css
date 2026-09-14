@@ -1,0 +1,14 @@
+.nav {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.nav a:hover,
+.nav a:focus {
+  color: #404bbf;
+}
+
+.info a:hover,
+.info a:focus {
+  color: #404bbf;
+}

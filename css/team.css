@@ -1,0 +1,27 @@
+.team-subt,
+.team-text {
+  text-align: center;
+}
+
+.team-subt {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.section-team {
+  background: #f4f4fd;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.111;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-cards {
+  background: #fff;
+}
