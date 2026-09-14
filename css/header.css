@@ -1,4 +1,4 @@
-.header .container{
+.header .container {
   display: flex;
   align-items: center;
 }
@@ -26,8 +26,9 @@
   color: #404bbf;
 }
 
-.header address{
+.header address {
   margin-left: auto;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .info-list {
