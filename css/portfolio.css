@@ -34,11 +34,9 @@
   overflow: hidden;
 }
 
-.portfolio-cards img {
+.portfolio-img {
   display: block;
   width: 100%;
-  height: 300px;
-  object-fit: cover;
 }
 
 .portfolio-cards-cnt {
