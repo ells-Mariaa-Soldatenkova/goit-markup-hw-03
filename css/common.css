@@ -14,6 +14,8 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -24,6 +26,41 @@ address {
   font-style: normal;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%
+  height: auto
+}
+
+.sr-only{
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip:rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: auto;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -32,6 +69,9 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+
+  display: inline-flex;
+  align-items: center;
 }
 
 .logo-acent {
@@ -43,9 +83,17 @@ address {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  
+  border-color: #4d5ae5;
+  border-radius: 4px;
+  padding: 16px 32px;
+
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background: #404bbf;
+  border-color: #404bbf;
 }

@@ -4,4 +4,20 @@
   letter-spacing: 0.02em;
   line-height: 1.2;
   color: #2e2f42;
+
+  margin-bottom: 8px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.features-item {
+  width: 264px;
+}
+
+.section-features {
+  padding: 120px 0;
 }
